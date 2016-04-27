@@ -24,6 +24,7 @@
 		60448F0B1CD0619A005E65DE /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F0A1CD0619A005E65DE /* CAGradientLayerViewController.m */; };
 		60448F0E1CD0637C005E65DE /* CATransformLayer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F0D1CD0637C005E65DE /* CATransformLayer2ViewController.m */; };
 		60448F131CD09D9E005E65DE /* AffairsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F121CD09D9E005E65DE /* AffairsViewController.m */; };
+		60448F161CD0AE42005E65DE /* finshblockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F151CD0AE42005E65DE /* finshblockViewController.m */; };
 		605CE1F41CB8DD9200D91782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F31CB8DD9200D91782 /* main.m */; };
 		605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F61CB8DD9200D91782 /* AppDelegate.m */; };
 		605CE1FF1CB8DD9200D91782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605CE1FE1CB8DD9200D91782 /* Assets.xcassets */; };
@@ -87,6 +88,8 @@
 		60448F0D1CD0637C005E65DE /* CATransformLayer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransformLayer2ViewController.m; sourceTree = "<group>"; };
 		60448F111CD09D9E005E65DE /* AffairsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffairsViewController.h; sourceTree = "<group>"; };
 		60448F121CD09D9E005E65DE /* AffairsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffairsViewController.m; sourceTree = "<group>"; };
+		60448F141CD0AE42005E65DE /* finshblockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = finshblockViewController.h; sourceTree = "<group>"; };
+		60448F151CD0AE42005E65DE /* finshblockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = finshblockViewController.m; sourceTree = "<group>"; };
 		605CE1EF1CB8DD9200D91782 /* coreAnmitionTextLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreAnmitionTextLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605CE1F31CB8DD9200D91782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		605CE1F51CB8DD9200D91782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -204,6 +207,8 @@
 			children = (
 				60448F111CD09D9E005E65DE /* AffairsViewController.h */,
 				60448F121CD09D9E005E65DE /* AffairsViewController.m */,
+				60448F141CD0AE42005E65DE /* finshblockViewController.h */,
+				60448F151CD0AE42005E65DE /* finshblockViewController.m */,
 			);
 			name = 7;
 			sourceTree = "<group>";
@@ -445,6 +450,7 @@
 				60448F0B1CD0619A005E65DE /* CAGradientLayerViewController.m in Sources */,
 				603C443C1CBF3A5500F102D5 /* CATextLayerViewController.m in Sources */,
 				60448F011CD05D47005E65DE /* CAReplicatorLayerView.m in Sources */,
+				60448F161CD0AE42005E65DE /* finshblockViewController.m in Sources */,
 				60448F051CD05D75005E65DE /* CAEmitterLayerViewController.m in Sources */,
 				6039BD4C1CBCA19200FB646C /* TransformViewController.m in Sources */,
 				605CE1F41CB8DD9200D91782 /* main.m in Sources */,

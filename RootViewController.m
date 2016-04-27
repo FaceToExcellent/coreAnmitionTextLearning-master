@@ -23,6 +23,7 @@
 #import "CAReplicatorLayerViewController.h"
 #import "CAEAGLLayerViewController.h"
 #import "AffairsViewController.h"
+#import "finshblockViewController.h"
 @interface RootViewController ()
 
 @end
@@ -44,7 +45,7 @@
 {
     
     
-    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer",@"事务" ,nil];
+    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer",@"事务",@"完成块" ,nil];
     _tabelview =[[UITableView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH , SCREEN_HEIGHT)];
     _tabelview.delegate=self;
     _tabelview.dataSource=self;
@@ -163,6 +164,11 @@
     if (indexPath.row ==15) {
         AffairsViewController * layer15 =[[AffairsViewController alloc]init];
         [self.navigationController pushViewController:layer15 animated:YES];
+        
+    }
+    if (indexPath.row ==16) {
+        finshblockViewController * layer16 =[[finshblockViewController alloc]init];
+        [self.navigationController pushViewController:layer16 animated:YES];
         
     }
 }

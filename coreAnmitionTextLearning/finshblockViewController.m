@@ -1,18 +1,18 @@
 //
-//  AffairsViewController.m
+//  finshblockViewController.m
 //  coreAnmitionTextLearning
 //
 //  Created by HYZ on 16/4/27.
 //  Copyright © 2016年 HYZ. All rights reserved.
 //
 
-#import "AffairsViewController.h"
+#import "finshblockViewController.h"
 
-@interface AffairsViewController ()
+@interface finshblockViewController ()
 
 @end
 
-@implementation AffairsViewController
+@implementation finshblockViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,28 +33,28 @@
     [changeColorButton setBackgroundColor:[UIColor redColor]];
     [changeColorButton addTarget:self action:@selector(changeColor) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:changeColorButton];
-//    [CATransaction begin];
-//    //set the animation duration to 1 second
-//    [CATransaction setAnimationDuration:1.0];
-//    //randomize the layer background color
-//    CGFloat red = arc4random() / (CGFloat)INT_MAX;
-//    CGFloat green = arc4random() / (CGFloat)INT_MAX;
-//    CGFloat blue = arc4random() / (CGFloat)INT_MAX;
-//    self.colorLayer.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0].CGColor;
-//    ￼//commit the transaction
-//    [CATransaction commit];
-    
 }
 - (void)changeColor
 {
+    //begin a new transaction
+    [CATransaction begin];
+    //set the animation duration to 1 second
+    [CATransaction setAnimationDuration:1.0];
+    //add the spin animation on completion
+    [CATransaction setCompletionBlock:^{
+        //rotate the layer 90 degrees
+        CGAffineTransform transform = self.colorLayer.affineTransform;
+        transform = CGAffineTransformRotate(transform, M_PI_2);
+        self.colorLayer.affineTransform = transform;
+    }];
     //randomize the layer background color
     CGFloat red = arc4random() / (CGFloat)INT_MAX;
     CGFloat green = arc4random() / (CGFloat)INT_MAX;
     CGFloat blue = arc4random() / (CGFloat)INT_MAX;
-    self.colorLayer.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0].CGColor;                                                                                      
+    self.colorLayer.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0].CGColor;
+    //commit the transaction
+    [CATransaction commit];
 }
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
