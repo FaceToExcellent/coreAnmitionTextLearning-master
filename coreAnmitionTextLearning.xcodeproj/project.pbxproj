@@ -20,6 +20,9 @@
 		60448F011CD05D47005E65DE /* CAReplicatorLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448EFE1CD05D47005E65DE /* CAReplicatorLayerView.m */; };
 		60448F021CD05D47005E65DE /* CAReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F001CD05D47005E65DE /* CAReplicatorLayerViewController.m */; };
 		60448F051CD05D75005E65DE /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F041CD05D75005E65DE /* CAEmitterLayerViewController.m */; };
+		60448F081CD0601F005E65DE /* CAEAGLLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F071CD0601F005E65DE /* CAEAGLLayerViewController.m */; };
+		60448F0B1CD0619A005E65DE /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F0A1CD0619A005E65DE /* CAGradientLayerViewController.m */; };
+		60448F0E1CD0637C005E65DE /* CATransformLayer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F0D1CD0637C005E65DE /* CATransformLayer2ViewController.m */; };
 		605CE1F41CB8DD9200D91782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F31CB8DD9200D91782 /* main.m */; };
 		605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F61CB8DD9200D91782 /* AppDelegate.m */; };
 		605CE1FF1CB8DD9200D91782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605CE1FE1CB8DD9200D91782 /* Assets.xcassets */; };
@@ -75,6 +78,12 @@
 		60448F001CD05D47005E65DE /* CAReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerViewController.m; sourceTree = "<group>"; };
 		60448F031CD05D75005E65DE /* CAEmitterLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerViewController.h; sourceTree = "<group>"; };
 		60448F041CD05D75005E65DE /* CAEmitterLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerViewController.m; sourceTree = "<group>"; };
+		60448F061CD0601F005E65DE /* CAEAGLLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEAGLLayerViewController.h; sourceTree = "<group>"; };
+		60448F071CD0601F005E65DE /* CAEAGLLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEAGLLayerViewController.m; sourceTree = "<group>"; };
+		60448F091CD0619A005E65DE /* CAGradientLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerViewController.h; sourceTree = "<group>"; };
+		60448F0A1CD0619A005E65DE /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
+		60448F0C1CD0637C005E65DE /* CATransformLayer2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransformLayer2ViewController.h; sourceTree = "<group>"; };
+		60448F0D1CD0637C005E65DE /* CATransformLayer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransformLayer2ViewController.m; sourceTree = "<group>"; };
 		605CE1EF1CB8DD9200D91782 /* coreAnmitionTextLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreAnmitionTextLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605CE1F31CB8DD9200D91782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		605CE1F51CB8DD9200D91782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,14 +147,20 @@
 				603C44381CBF36CC00F102D5 /* CAShapeLayerViewController.m */,
 				603C443A1CBF3A5500F102D5 /* CATextLayerViewController.h */,
 				603C443B1CBF3A5500F102D5 /* CATextLayerViewController.m */,
+				60448F0C1CD0637C005E65DE /* CATransformLayer2ViewController.h */,
+				60448F0D1CD0637C005E65DE /* CATransformLayer2ViewController.m */,
 				603069EE1CC474E600F7933F /* CATransformLayerViewController.h */,
 				603069EF1CC474E600F7933F /* CATransformLayerViewController.m */,
 				60448EFD1CD05D47005E65DE /* CAReplicatorLayerView.h */,
 				60448EFE1CD05D47005E65DE /* CAReplicatorLayerView.m */,
+				60448F091CD0619A005E65DE /* CAGradientLayerViewController.h */,
+				60448F0A1CD0619A005E65DE /* CAGradientLayerViewController.m */,
 				60448EFF1CD05D47005E65DE /* CAReplicatorLayerViewController.h */,
 				60448F001CD05D47005E65DE /* CAReplicatorLayerViewController.m */,
 				60448F031CD05D75005E65DE /* CAEmitterLayerViewController.h */,
 				60448F041CD05D75005E65DE /* CAEmitterLayerViewController.m */,
+				60448F061CD0601F005E65DE /* CAEAGLLayerViewController.h */,
+				60448F071CD0601F005E65DE /* CAEAGLLayerViewController.m */,
 			);
 			name = 6;
 			sourceTree = "<group>";
@@ -395,14 +410,17 @@
 				603069F01CC474E600F7933F /* CATransformLayerViewController.m in Sources */,
 				6039BD481CBC995E00FB646C /* MaskViewController.m in Sources */,
 				605CE2331CB8E3A500D91782 /* PostViewController.m in Sources */,
+				60448F081CD0601F005E65DE /* CAEAGLLayerViewController.m in Sources */,
 				60448F021CD05D47005E65DE /* CAReplicatorLayerViewController.m in Sources */,
 				605CE23C1CB8F60000D91782 /* Layer01ViewController.m in Sources */,
+				60448F0E1CD0637C005E65DE /* CATransformLayer2ViewController.m in Sources */,
 				604120631CBB462F00F03A52 /* contentsViewController.m in Sources */,
 				6041206C1CBB793E00F03A52 /* anchorPointViewController.m in Sources */,
 				604120701CBBA90E00F03A52 /* visualeffectViewController.m in Sources */,
 				604120681CBB4CBA00F03A52 /* CustomDrawingViewController.m in Sources */,
 				605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */,
 				603C44391CBF36CC00F102D5 /* CAShapeLayerViewController.m in Sources */,
+				60448F0B1CD0619A005E65DE /* CAGradientLayerViewController.m in Sources */,
 				603C443C1CBF3A5500F102D5 /* CATextLayerViewController.m in Sources */,
 				60448F011CD05D47005E65DE /* CAReplicatorLayerView.m in Sources */,
 				60448F051CD05D75005E65DE /* CAEmitterLayerViewController.m in Sources */,

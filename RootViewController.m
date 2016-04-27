@@ -17,6 +17,12 @@
 #import "CAShapeLayerViewController.h"
 #import "CATextLayerViewController.h"
 #import "CATransformLayerViewController.h"
+#import "CATransformLayer2ViewController.h"
+#import "CAGradientLayerViewController.h"
+#import "CAEmitterLayerViewController.h"
+#import "CAReplicatorLayerViewController.h"
+#import "CAEAGLLayerViewController.h"
+
 @interface RootViewController ()
 
 @end
@@ -32,7 +38,7 @@
 {
     
     
-    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"CATransformLayer" ,nil];
+    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer" ,nil];
     _tabelview =[[UITableView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH , SCREEN_HEIGHT-44)];
     _tabelview.delegate=self;
     _tabelview.dataSource=self;
@@ -122,6 +128,33 @@
         [self.navigationController pushViewController:layer09 animated:YES];
         
     }
+    if (indexPath.row ==10) {
+        CATransformLayer2ViewController * layer09 =[[CATransformLayer2ViewController alloc]init];
+        [self.navigationController pushViewController:layer09 animated:YES];
+        
+    }
+    if (indexPath.row ==11) {
+        CAGradientLayerViewController * layer10 =[[CAGradientLayerViewController alloc]init];
+        [self.navigationController pushViewController:layer10 animated:YES];
+        
+    }
+    
+    if (indexPath.row ==12) {
+        CAEmitterLayerViewController * layer11 =[[CAEmitterLayerViewController alloc]init];
+        [self.navigationController pushViewController:layer11 animated:YES];
+        
+    }
+    if (indexPath.row ==13) {
+        CAReplicatorLayerViewController * layer12 =[[CAReplicatorLayerViewController alloc]init];
+        [self.navigationController pushViewController:layer12 animated:YES];
+        
+    }
+    if (indexPath.row ==14) {
+        CAEAGLLayerViewController * layer13 =[[CAEAGLLayerViewController alloc]init];
+        [self.navigationController pushViewController:layer13 animated:YES];
+        
+    }
+    
 }
 
 
