@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CAEAGLLayerViewController : UIViewController
-
+@property(nonatomic,strong)UIScrollView * scrollview;
 @end
