@@ -22,7 +22,7 @@
 #import "CAEmitterLayerViewController.h"
 #import "CAReplicatorLayerViewController.h"
 #import "CAEAGLLayerViewController.h"
-
+#import "AffairsViewController.h"
 @interface RootViewController ()
 
 @end
@@ -44,8 +44,8 @@
 {
     
     
-    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer" ,nil];
-    _tabelview =[[UITableView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH , SCREEN_HEIGHT-44)];
+    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer",@"事务" ,nil];
+    _tabelview =[[UITableView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH , SCREEN_HEIGHT)];
     _tabelview.delegate=self;
     _tabelview.dataSource=self;
     [self.view addSubview:_tabelview];
@@ -160,7 +160,11 @@
         [self.navigationController pushViewController:layer13 animated:YES];
         
     }
-    
+    if (indexPath.row ==15) {
+        AffairsViewController * layer15 =[[AffairsViewController alloc]init];
+        [self.navigationController pushViewController:layer15 animated:YES];
+        
+    }
 }
 
 

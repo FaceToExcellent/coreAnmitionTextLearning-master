@@ -1,5 +1,5 @@
 //
-//  CAEAGLLayerViewController.h
+//  AffairsViewController.h
 //  coreAnmitionTextLearning
 //
 //  Created by HYZ on 16/4/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CAEAGLLayerViewController : PostViewController
-@property(nonatomic,strong)UIScrollView * scrollview;
+@interface AffairsViewController : PostViewController
+@property(nonatomic,strong)CALayer * colorLayer;
 @end

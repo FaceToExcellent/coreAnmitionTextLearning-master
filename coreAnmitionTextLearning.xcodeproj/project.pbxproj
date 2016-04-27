@@ -23,6 +23,7 @@
 		60448F081CD0601F005E65DE /* CAEAGLLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F071CD0601F005E65DE /* CAEAGLLayerViewController.m */; };
 		60448F0B1CD0619A005E65DE /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F0A1CD0619A005E65DE /* CAGradientLayerViewController.m */; };
 		60448F0E1CD0637C005E65DE /* CATransformLayer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F0D1CD0637C005E65DE /* CATransformLayer2ViewController.m */; };
+		60448F131CD09D9E005E65DE /* AffairsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F121CD09D9E005E65DE /* AffairsViewController.m */; };
 		605CE1F41CB8DD9200D91782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F31CB8DD9200D91782 /* main.m */; };
 		605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F61CB8DD9200D91782 /* AppDelegate.m */; };
 		605CE1FF1CB8DD9200D91782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605CE1FE1CB8DD9200D91782 /* Assets.xcassets */; };
@@ -84,6 +85,8 @@
 		60448F0A1CD0619A005E65DE /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
 		60448F0C1CD0637C005E65DE /* CATransformLayer2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransformLayer2ViewController.h; sourceTree = "<group>"; };
 		60448F0D1CD0637C005E65DE /* CATransformLayer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransformLayer2ViewController.m; sourceTree = "<group>"; };
+		60448F111CD09D9E005E65DE /* AffairsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffairsViewController.h; sourceTree = "<group>"; };
+		60448F121CD09D9E005E65DE /* AffairsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffairsViewController.m; sourceTree = "<group>"; };
 		605CE1EF1CB8DD9200D91782 /* coreAnmitionTextLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreAnmitionTextLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605CE1F31CB8DD9200D91782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		605CE1F51CB8DD9200D91782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -196,6 +199,26 @@
 			name = 4;
 			sourceTree = "<group>";
 		};
+		60448F0F1CD09ACF005E65DE /* 7 */ = {
+			isa = PBXGroup;
+			children = (
+				60448F111CD09D9E005E65DE /* AffairsViewController.h */,
+				60448F121CD09D9E005E65DE /* AffairsViewController.m */,
+			);
+			name = 7;
+			sourceTree = "<group>";
+		};
+		60448F101CD09AFB005E65DE /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				605CE1F51CB8DD9200D91782 /* AppDelegate.h */,
+				605CE1F61CB8DD9200D91782 /* AppDelegate.m */,
+				605CE2311CB8E3A500D91782 /* PostViewController.h */,
+				605CE2321CB8E3A500D91782 /* PostViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
 		605CE1E61CB8DD9200D91782 = {
 			isa = PBXGroup;
 			children = (
@@ -217,13 +240,10 @@
 		605CE1F11CB8DD9200D91782 /* coreAnmitionTextLearning */ = {
 			isa = PBXGroup;
 			children = (
-				605CE2391CB8F00F00D91782 /* frameWork */,
-				605CE1F51CB8DD9200D91782 /* AppDelegate.h */,
-				605CE1F61CB8DD9200D91782 /* AppDelegate.m */,
 				605CE2251CB8DF1F00D91782 /* RootViewController.h */,
 				605CE2261CB8DF1F00D91782 /* RootViewController.m */,
-				605CE2311CB8E3A500D91782 /* PostViewController.h */,
-				605CE2321CB8E3A500D91782 /* PostViewController.m */,
+				60448F101CD09AFB005E65DE /* controllers */,
+				60448F0F1CD09ACF005E65DE /* 7 */,
 				603C44361CBF36A400F102D5 /* 6 */,
 				6039BD491CBC9F0D00FB646C /* 5 */,
 				6041206D1CBBA8FA00F03A52 /* 4 */,
@@ -239,6 +259,7 @@
 		605CE1F21CB8DD9200D91782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				605CE2391CB8F00F00D91782 /* frameWork */,
 				605CE2031CB8DD9200D91782 /* Info.plist */,
 				605CE22F1CB8E32F00D91782 /* image */,
 				605CE1F31CB8DD9200D91782 /* main.m */,
@@ -419,6 +440,7 @@
 				604120701CBBA90E00F03A52 /* visualeffectViewController.m in Sources */,
 				604120681CBB4CBA00F03A52 /* CustomDrawingViewController.m in Sources */,
 				605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */,
+				60448F131CD09D9E005E65DE /* AffairsViewController.m in Sources */,
 				603C44391CBF36CC00F102D5 /* CAShapeLayerViewController.m in Sources */,
 				60448F0B1CD0619A005E65DE /* CAGradientLayerViewController.m in Sources */,
 				603C443C1CBF3A5500F102D5 /* CATextLayerViewController.m in Sources */,
