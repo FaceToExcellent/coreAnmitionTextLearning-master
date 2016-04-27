@@ -27,19 +27,19 @@
     [self.view.layer addSublayer:emitter];
     
     //configure emitter
-    emitter.renderMode = kCAEmitterLayerAdditive;
-    emitter.emitterPosition = CGPointMake(emitter.frame.size.width / 2.0, emitter.frame.size.height / 2.0);
+    emitter.renderMode = kCAEmitterLayerAdditive;//控制着在视觉上粒子图片是如何混合的
+    emitter.emitterPosition = CGPointMake(emitter.frame.size.width / 2.0, emitter.frame.size.height / 2.0);//位置
     
     //create a particle template
     CAEmitterCell *cell = [[CAEmitterCell alloc] init];
-    cell.contents = (__bridge id)[UIImage imageNamed:@"21"].CGImage;
-    cell.birthRate = 150;
-    cell.lifetime = 5.0;
+    cell.contents = (__bridge id)[UIImage imageNamed:@"21"].CGImage;//粒子内容
+    cell.birthRate = 150;//这个必须要设置，具体含义是每秒某个点产生的effectCell数量
+    cell.lifetime = 5.0;//在屏幕上的显示时间要多长
     cell.color = [UIColor colorWithRed:1 green:0.5 blue:0.1 alpha:1.0].CGColor;
-    cell.alphaSpeed = -0.4;
-    cell.velocity = 50;
-    cell.velocityRange = 50;
-    cell.emissionRange = M_PI * 2.0;
+    cell.alphaSpeed = -0.4;//粒子透明度在生命周期内的改变速度；
+    cell.velocity = 50;//飞行的速度
+    cell.velocityRange = 50;//什么范围内飞行
+    cell.emissionRange = M_PI * 2.0;//＋－角度扩散
     
     //add particle template to emitter
     emitter.emitterCells = @[cell];
