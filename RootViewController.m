@@ -31,6 +31,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title=@"核心动画知识点";
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     
+  @{NSFontAttributeName:[UIFont systemFontOfSize:19],
+    
+    NSForegroundColorAttributeName:[UIColor blueColor]}];
     [self makrUI];
     
 }
