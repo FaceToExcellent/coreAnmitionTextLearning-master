@@ -20,7 +20,8 @@
 }
 -(void)makeUI
 {
-    
+    //这其实就是所谓的隐式动画。之所以叫隐式是因为我们并没有指定任何动画的类型。我们仅仅改变了一个属性
+    //事务实际上是Core Animation用来包含一系列属性动画集合的机制，任何用指定事务去改变可以做动画的图层属性都不会立刻发生变化,而是当事务一旦提交的时候开始用一个动画过渡到新值。
     self.colorLayer = [CALayer layer];
     self.colorLayer.frame = CGRectMake(100.0f, 70.0f, 100.0f, 100.0f);
     self.colorLayer.backgroundColor = [UIColor blueColor].CGColor;
