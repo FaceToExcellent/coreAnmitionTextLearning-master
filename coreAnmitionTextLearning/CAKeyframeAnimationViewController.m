@@ -24,8 +24,9 @@
 -(void)makeUI
 {
     UIBezierPath *bezierPath = [[UIBezierPath alloc] init];
+    //三次贝塞尔曲线
     [bezierPath moveToPoint:CGPointMake(0, 150)];
-    [bezierPath addCurveToPoint:CGPointMake(300, 150) controlPoint1:CGPointMake(75, 0) controlPoint2:CGPointMake(225, 300)];
+    [bezierPath addCurveToPoint:CGPointMake(300, 150) controlPoint1:CGPointMake(0, 70) controlPoint2:CGPointMake(225, 500)];
     //draw the path using a CAShapeLayer
     CAShapeLayer *pathLayer = [CAShapeLayer layer];
     pathLayer.path = bezierPath.CGPath;
@@ -45,6 +46,12 @@
     animation.duration = 4.0;
     animation.path = bezierPath.CGPath;
     animation.rotationMode = kCAAnimationRotateAuto;//匹配曲线切线方向的飞
+    
+//    CABasicAnimation *animation = [CABasicAnimation animation];
+//    animation.keyPath = @"transform.rotation";
+//    animation.duration = 2.0;
+//    animation.byValue = @(M_PI * 2);
+    
     [shipLayer addAnimation:animation forKey:nil];
     
 }
