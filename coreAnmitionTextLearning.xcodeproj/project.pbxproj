@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602C21B11CD3026300E77B6F /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602C21B01CD3026300E77B6F /* CATransitionViewController.m */; };
 		603069F01CC474E600F7933F /* CATransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603069EF1CC474E600F7933F /* CATransformLayerViewController.m */; };
 		6039BD481CBC995E00FB646C /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039BD471CBC995E00FB646C /* MaskViewController.m */; };
 		6039BD4C1CBCA19200FB646C /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039BD4B1CBCA19200FB646C /* TransformViewController.m */; };
@@ -57,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		602C21AF1CD3026300E77B6F /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
+		602C21B01CD3026300E77B6F /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
 		603069EE1CC474E600F7933F /* CATransformLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransformLayerViewController.h; sourceTree = "<group>"; };
 		603069EF1CC474E600F7933F /* CATransformLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransformLayerViewController.m; sourceTree = "<group>"; };
 		6039BD461CBC995E00FB646C /* MaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskViewController.h; sourceTree = "<group>"; };
@@ -237,6 +240,8 @@
 				604502871CD1E814005ADC2C /* CAKeyframeAnimationViewController.m */,
 				604502891CD1EE80005ADC2C /* CAAnimationGroupViewController.h */,
 				6045028A1CD1EE80005ADC2C /* CAAnimationGroupViewController.m */,
+				602C21AF1CD3026300E77B6F /* CATransitionViewController.h */,
+				602C21B01CD3026300E77B6F /* CATransitionViewController.m */,
 			);
 			name = 8;
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 				605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */,
 				60448F131CD09D9E005E65DE /* AffairsViewController.m in Sources */,
 				603C44391CBF36CC00F102D5 /* CAShapeLayerViewController.m in Sources */,
+				602C21B11CD3026300E77B6F /* CATransitionViewController.m in Sources */,
 				6045028B1CD1EE80005ADC2C /* CAAnimationGroupViewController.m in Sources */,
 				60448F0B1CD0619A005E65DE /* CAGradientLayerViewController.m in Sources */,
 				603C443C1CBF3A5500F102D5 /* CATextLayerViewController.m in Sources */,

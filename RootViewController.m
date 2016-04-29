@@ -26,6 +26,7 @@
 #import "finshblockViewController.h"
 #import "CAKeyframeAnimationViewController.h"
 #import "CAAnimationGroupViewController.h"
+#import "CATransitionViewController.h"
 @interface RootViewController ()
 
 @end
@@ -47,7 +48,7 @@
 {
     
     
-    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer",@"事务",@"完成块",@"关键帧",@"动画组" ,nil];
+    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer",@"事务",@"完成块",@"关键帧",@"动画组",@"过度" ,nil];
     _tabelview =[[UITableView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH , SCREEN_HEIGHT)];
     _tabelview.delegate=self;
     _tabelview.dataSource=self;
@@ -181,6 +182,11 @@
     if (indexPath.row ==18) {
         CAAnimationGroupViewController * layer18 =[[CAAnimationGroupViewController alloc]init];
         [self.navigationController pushViewController:layer18 animated:YES];
+        
+    }
+    if (indexPath.row ==19) {
+        CATransitionViewController * layer19 =[[CATransitionViewController alloc]init];
+        [self.navigationController pushViewController:layer19 animated:YES];
         
     }
 }
