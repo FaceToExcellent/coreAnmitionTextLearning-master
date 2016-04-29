@@ -67,6 +67,28 @@
     NSUInteger index = [self.images indexOfObject:currentImage];
     index = (index + 1) % [self.images count];
     self.imageView.image = self.images[index];
+    
+    //自定义 UIview 的方法写法
+    /*  [UIView transitionWithView:self.imageView duration:1.0
+     options:UIViewAnimationOptionTransitionFlipFromLeft
+     animations:^{
+     //cycle to next image
+     UIImage *currentImage = self.imageView.image;
+     NSUInteger index = [self.images indexOfObject:currentImage];
+     index = (index + 1) % [self.images count];
+     self.imageView.image = self.images[index];
+     }
+     completion:NULL];
+     }*/
+    
+    /* uiview 自定义动画 的 type 类型
+     UIViewAnimationOptionTransitionFlipFromLeft
+     UIViewAnimationOptionTransitionFlipFromRight
+     UIViewAnimationOptionTransitionCurlUp 
+     UIViewAnimationOptionTransitionCurlDown 
+     UIViewAnimationOptionTransitionCrossDissolve 
+     UIViewAnimationOptionTransitionFlipFromTop 
+     UIViewAnimationOptionTransitionFlipFromBottom*/
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
