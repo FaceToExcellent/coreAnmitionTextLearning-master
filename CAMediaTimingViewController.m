@@ -128,17 +128,29 @@
     [button addTarget:self action:@selector(play) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
+    _speedSlider =[[UISlider alloc]init];
+    _speedSlider.frame=CGRectMake(100,400 , 100, 3);
+    _speedSlider.minimumValue=0;
+    _speedSlider.maximumValue=2;
+    _speedSlider.backgroundColor=[UIColor blueColor];
+    [self.view addSubview:_speedSlider];
+    
+    _timeOffsetSlider =[[UISlider alloc]init];
+    _timeOffsetSlider.frame=CGRectMake(100,450 , 100, 3);
+    _timeOffsetSlider.minimumValue=0;
+    _timeOffsetSlider.backgroundColor=[UIColor blueColor];
+    [self.view addSubview:_timeOffsetSlider];
     
     
 }
 
-- (void)updateSliders
-{
-    CFTimeInterval timeOffset = self.timeOffsetSlider.value;
-    self.timeOffsetLabel.text = [NSString stringWithFormat:@"%0.2f", timeOffset];
-    float speed = self.speedSlider.value;
-    self.speedLabel.text = [NSString stringWithFormat:@"%0.2f", speed];
-}
+//- (void)updateSliders
+//{
+//    CFTimeInterval timeOffset = self.timeOffsetSlider.value;
+//    self.timeOffsetLabel.text = [NSString stringWithFormat:@"%0.2f", timeOffset];
+//    float speed = self.speedSlider.value;
+//    self.speedLabel.text = [NSString stringWithFormat:@"%0.2f", speed];
+//}
 
 - (void)play
 {

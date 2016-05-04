@@ -15,8 +15,8 @@
 @property (nonatomic, strong) CALayer *shipLayer;
 
 
-@property (nonatomic, strong)  UILabel *speedLabel;
-@property (nonatomic, strong)  UILabel *timeOffsetLabel;
+//@property (nonatomic, strong)  UILabel *speedLabel;
+//@property (nonatomic, strong)  UILabel *timeOffsetLabel;
 @property (nonatomic, strong)  UISlider *speedSlider;
 @property (nonatomic, strong)  UISlider *timeOffsetSlider;
 @property (nonatomic, strong)  UIBezierPath *bezierPath;
