@@ -29,6 +29,7 @@
 		604502881CD1E814005ADC2C /* CAKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604502871CD1E814005ADC2C /* CAKeyframeAnimationViewController.m */; };
 		6045028B1CD1EE80005ADC2C /* CAAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045028A1CD1EE80005ADC2C /* CAAnimationGroupViewController.m */; };
 		604CDDEA1CD992B100F230F9 /* removeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604CDDE91CD992B100F230F9 /* removeAnimationViewController.m */; };
+		604CDDEE1CD994D700F230F9 /* CAMediaTimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604CDDED1CD994D700F230F9 /* CAMediaTimingViewController.m */; };
 		605CE1F41CB8DD9200D91782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F31CB8DD9200D91782 /* main.m */; };
 		605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F61CB8DD9200D91782 /* AppDelegate.m */; };
 		605CE1FF1CB8DD9200D91782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605CE1FE1CB8DD9200D91782 /* Assets.xcassets */; };
@@ -102,6 +103,8 @@
 		6045028A1CD1EE80005ADC2C /* CAAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationGroupViewController.m; sourceTree = "<group>"; };
 		604CDDE81CD992B100F230F9 /* removeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = removeAnimationViewController.h; sourceTree = "<group>"; };
 		604CDDE91CD992B100F230F9 /* removeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = removeAnimationViewController.m; sourceTree = "<group>"; };
+		604CDDEC1CD994D700F230F9 /* CAMediaTimingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMediaTimingViewController.h; sourceTree = "<group>"; };
+		604CDDED1CD994D700F230F9 /* CAMediaTimingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMediaTimingViewController.m; sourceTree = "<group>"; };
 		605CE1EF1CB8DD9200D91782 /* coreAnmitionTextLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreAnmitionTextLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605CE1F31CB8DD9200D91782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		605CE1F51CB8DD9200D91782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -251,6 +254,16 @@
 			name = 8;
 			sourceTree = "<group>";
 		};
+		604CDDEB1CD9949100F230F9 /* 9 */ = {
+			isa = PBXGroup;
+			children = (
+				604CDDEC1CD994D700F230F9 /* CAMediaTimingViewController.h */,
+				604CDDED1CD994D700F230F9 /* CAMediaTimingViewController.m */,
+			);
+			name = 9;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		605CE1E61CB8DD9200D91782 = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +288,7 @@
 				605CE2251CB8DF1F00D91782 /* RootViewController.h */,
 				605CE2261CB8DF1F00D91782 /* RootViewController.m */,
 				60448F101CD09AFB005E65DE /* controllers */,
+				604CDDEB1CD9949100F230F9 /* 9 */,
 				604502851CD1A8C7005ADC2C /* 8 */,
 				60448F0F1CD09ACF005E65DE /* 7 */,
 				603C44361CBF36A400F102D5 /* 6 */,
@@ -470,6 +484,7 @@
 				60448F0E1CD0637C005E65DE /* CATransformLayer2ViewController.m in Sources */,
 				604CDDEA1CD992B100F230F9 /* removeAnimationViewController.m in Sources */,
 				604120631CBB462F00F03A52 /* contentsViewController.m in Sources */,
+				604CDDEE1CD994D700F230F9 /* CAMediaTimingViewController.m in Sources */,
 				6041206C1CBB793E00F03A52 /* anchorPointViewController.m in Sources */,
 				604120701CBBA90E00F03A52 /* visualeffectViewController.m in Sources */,
 				604120681CBB4CBA00F03A52 /* CustomDrawingViewController.m in Sources */,
