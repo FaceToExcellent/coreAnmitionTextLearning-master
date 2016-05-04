@@ -29,6 +29,7 @@
 #import "CATransitionViewController.h"
 #import "removeAnimationViewController.h"
 #import "CAMediaTimingViewController.h"
+#import "velocityViewController.h"
 @interface RootViewController ()
 
 @end
@@ -50,7 +51,7 @@
 {
     
     
-    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer",@"事务",@"完成块",@"关键帧",@"动画组",@"过度",@"取消动画",@"CAMediaTiming协议" ,nil];
+    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer",@"事务",@"完成块",@"关键帧",@"动画组",@"过度",@"取消动画",@"CAMediaTiming协议",@"动画速度" ,nil];
     _tabelview =[[UITableView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH , SCREEN_HEIGHT)];
     _tabelview.delegate=self;
     _tabelview.dataSource=self;
@@ -199,6 +200,11 @@
     if (indexPath.row ==21) {
         CAMediaTimingViewController * layer21 =[[CAMediaTimingViewController alloc]init];
         [self.navigationController pushViewController:layer21 animated:YES];
+        
+    }
+    if (indexPath.row ==22) {
+        velocityViewController * layer22 =[[velocityViewController alloc]init];
+        [self.navigationController pushViewController:layer22 animated:YES];
         
     }
 }

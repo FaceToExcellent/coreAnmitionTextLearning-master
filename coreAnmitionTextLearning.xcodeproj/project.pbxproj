@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600A5C0A1CD9CFAF00CEA829 /* velocityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600A5C091CD9CFAF00CEA829 /* velocityViewController.m */; };
 		602C21B11CD3026300E77B6F /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602C21B01CD3026300E77B6F /* CATransitionViewController.m */; };
 		603069F01CC474E600F7933F /* CATransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603069EF1CC474E600F7933F /* CATransformLayerViewController.m */; };
 		6039BD481CBC995E00FB646C /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039BD471CBC995E00FB646C /* MaskViewController.m */; };
@@ -60,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		600A5C081CD9CFAF00CEA829 /* velocityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocityViewController.h; sourceTree = "<group>"; };
+		600A5C091CD9CFAF00CEA829 /* velocityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = velocityViewController.m; sourceTree = "<group>"; };
 		602C21AF1CD3026300E77B6F /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
 		602C21B01CD3026300E77B6F /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
 		603069EE1CC474E600F7933F /* CATransformLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransformLayerViewController.h; sourceTree = "<group>"; };
@@ -152,6 +155,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		600A5C071CD9CF7800CEA829 /* 10 */ = {
+			isa = PBXGroup;
+			children = (
+				600A5C081CD9CFAF00CEA829 /* velocityViewController.h */,
+				600A5C091CD9CFAF00CEA829 /* velocityViewController.m */,
+			);
+			name = 10;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		6039BD491CBC9F0D00FB646C /* 5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +301,7 @@
 				605CE2251CB8DF1F00D91782 /* RootViewController.h */,
 				605CE2261CB8DF1F00D91782 /* RootViewController.m */,
 				60448F101CD09AFB005E65DE /* controllers */,
+				600A5C071CD9CF7800CEA829 /* 10 */,
 				604CDDEB1CD9949100F230F9 /* 9 */,
 				604502851CD1A8C7005ADC2C /* 8 */,
 				60448F0F1CD09ACF005E65DE /* 7 */,
@@ -480,6 +494,7 @@
 				605CE2331CB8E3A500D91782 /* PostViewController.m in Sources */,
 				60448F081CD0601F005E65DE /* CAEAGLLayerViewController.m in Sources */,
 				60448F021CD05D47005E65DE /* CAReplicatorLayerViewController.m in Sources */,
+				600A5C0A1CD9CFAF00CEA829 /* velocityViewController.m in Sources */,
 				605CE23C1CB8F60000D91782 /* Layer01ViewController.m in Sources */,
 				60448F0E1CD0637C005E65DE /* CATransformLayer2ViewController.m in Sources */,
 				604CDDEA1CD992B100F230F9 /* removeAnimationViewController.m in Sources */,
