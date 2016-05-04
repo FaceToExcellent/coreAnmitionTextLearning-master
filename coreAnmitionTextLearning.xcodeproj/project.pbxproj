@@ -28,6 +28,7 @@
 		60448F161CD0AE42005E65DE /* finshblockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F151CD0AE42005E65DE /* finshblockViewController.m */; };
 		604502881CD1E814005ADC2C /* CAKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604502871CD1E814005ADC2C /* CAKeyframeAnimationViewController.m */; };
 		6045028B1CD1EE80005ADC2C /* CAAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045028A1CD1EE80005ADC2C /* CAAnimationGroupViewController.m */; };
+		604CDDEA1CD992B100F230F9 /* removeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604CDDE91CD992B100F230F9 /* removeAnimationViewController.m */; };
 		605CE1F41CB8DD9200D91782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F31CB8DD9200D91782 /* main.m */; };
 		605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE1F61CB8DD9200D91782 /* AppDelegate.m */; };
 		605CE1FF1CB8DD9200D91782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605CE1FE1CB8DD9200D91782 /* Assets.xcassets */; };
@@ -99,6 +100,8 @@
 		604502871CD1E814005ADC2C /* CAKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationViewController.m; sourceTree = "<group>"; };
 		604502891CD1EE80005ADC2C /* CAAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationGroupViewController.h; sourceTree = "<group>"; };
 		6045028A1CD1EE80005ADC2C /* CAAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationGroupViewController.m; sourceTree = "<group>"; };
+		604CDDE81CD992B100F230F9 /* removeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = removeAnimationViewController.h; sourceTree = "<group>"; };
+		604CDDE91CD992B100F230F9 /* removeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = removeAnimationViewController.m; sourceTree = "<group>"; };
 		605CE1EF1CB8DD9200D91782 /* coreAnmitionTextLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreAnmitionTextLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605CE1F31CB8DD9200D91782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		605CE1F51CB8DD9200D91782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -242,6 +245,8 @@
 				6045028A1CD1EE80005ADC2C /* CAAnimationGroupViewController.m */,
 				602C21AF1CD3026300E77B6F /* CATransitionViewController.h */,
 				602C21B01CD3026300E77B6F /* CATransitionViewController.m */,
+				604CDDE81CD992B100F230F9 /* removeAnimationViewController.h */,
+				604CDDE91CD992B100F230F9 /* removeAnimationViewController.m */,
 			);
 			name = 8;
 			sourceTree = "<group>";
@@ -463,6 +468,7 @@
 				60448F021CD05D47005E65DE /* CAReplicatorLayerViewController.m in Sources */,
 				605CE23C1CB8F60000D91782 /* Layer01ViewController.m in Sources */,
 				60448F0E1CD0637C005E65DE /* CATransformLayer2ViewController.m in Sources */,
+				604CDDEA1CD992B100F230F9 /* removeAnimationViewController.m in Sources */,
 				604120631CBB462F00F03A52 /* contentsViewController.m in Sources */,
 				6041206C1CBB793E00F03A52 /* anchorPointViewController.m in Sources */,
 				604120701CBBA90E00F03A52 /* visualeffectViewController.m in Sources */,
