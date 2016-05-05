@@ -9,5 +9,5 @@
 #import "PostViewController.h"
 
 @interface velocityViewController : PostViewController
-
+@property (nonatomic, strong) CALayer *colorLayer;
 @end
