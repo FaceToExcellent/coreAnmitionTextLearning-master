@@ -19,6 +19,7 @@
 		604120681CBB4CBA00F03A52 /* CustomDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604120671CBB4CBA00F03A52 /* CustomDrawingViewController.m */; };
 		6041206C1CBB793E00F03A52 /* anchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6041206B1CBB793E00F03A52 /* anchorPointViewController.m */; };
 		604120701CBBA90E00F03A52 /* visualeffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6041206F1CBBA90E00F03A52 /* visualeffectViewController.m */; };
+		6043CB681CE02F7A0021961C /* BufferfunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043CB671CE02F7A0021961C /* BufferfunctionViewController.m */; };
 		60448F011CD05D47005E65DE /* CAReplicatorLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448EFE1CD05D47005E65DE /* CAReplicatorLayerView.m */; };
 		60448F021CD05D47005E65DE /* CAReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F001CD05D47005E65DE /* CAReplicatorLayerViewController.m */; };
 		60448F051CD05D75005E65DE /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F041CD05D75005E65DE /* CAEmitterLayerViewController.m */; };
@@ -84,6 +85,8 @@
 		6041206B1CBB793E00F03A52 /* anchorPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = anchorPointViewController.m; sourceTree = "<group>"; };
 		6041206E1CBBA90E00F03A52 /* visualeffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visualeffectViewController.h; sourceTree = "<group>"; };
 		6041206F1CBBA90E00F03A52 /* visualeffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = visualeffectViewController.m; sourceTree = "<group>"; };
+		6043CB661CE02F7A0021961C /* BufferfunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferfunctionViewController.h; sourceTree = "<group>"; };
+		6043CB671CE02F7A0021961C /* BufferfunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferfunctionViewController.m; sourceTree = "<group>"; };
 		60448EFD1CD05D47005E65DE /* CAReplicatorLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerView.h; sourceTree = "<group>"; };
 		60448EFE1CD05D47005E65DE /* CAReplicatorLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerView.m; sourceTree = "<group>"; };
 		60448EFF1CD05D47005E65DE /* CAReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerViewController.h; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 			children = (
 				600A5C081CD9CFAF00CEA829 /* velocityViewController.h */,
 				600A5C091CD9CFAF00CEA829 /* velocityViewController.m */,
+				6043CB661CE02F7A0021961C /* BufferfunctionViewController.h */,
+				6043CB671CE02F7A0021961C /* BufferfunctionViewController.m */,
 			);
 			name = 10;
 			path = ..;
@@ -495,6 +500,7 @@
 				60448F081CD0601F005E65DE /* CAEAGLLayerViewController.m in Sources */,
 				60448F021CD05D47005E65DE /* CAReplicatorLayerViewController.m in Sources */,
 				600A5C0A1CD9CFAF00CEA829 /* velocityViewController.m in Sources */,
+				6043CB681CE02F7A0021961C /* BufferfunctionViewController.m in Sources */,
 				605CE23C1CB8F60000D91782 /* Layer01ViewController.m in Sources */,
 				60448F0E1CD0637C005E65DE /* CATransformLayer2ViewController.m in Sources */,
 				604CDDEA1CD992B100F230F9 /* removeAnimationViewController.m in Sources */,
