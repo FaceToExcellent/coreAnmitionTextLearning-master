@@ -36,6 +36,7 @@
     maskLayer.frame =self.view.bounds;
     UIImage *maskImage = [UIImage imageNamed:@"1"];
     maskLayer.contents = (__bridge id _Nullable)(maskImage.CGImage);
+   // maskLayer.contents = (__bridge id _Nullable)(maskImage.CGImage);
     // [self.view.layer addSublayer:maskLayer];
     
     //核心
@@ -45,7 +46,6 @@
      
      如果mask图层比父图层要小，只有在mask图层里面的内容才是它关心的，除此以外的一切都会被隐藏起来。*/
     imagemask.layer.mask=maskLayer;
-    
     
     
 }

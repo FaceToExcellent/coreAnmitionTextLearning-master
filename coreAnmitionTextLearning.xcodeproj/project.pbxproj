@@ -20,6 +20,7 @@
 		6041206C1CBB793E00F03A52 /* anchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6041206B1CBB793E00F03A52 /* anchorPointViewController.m */; };
 		604120701CBBA90E00F03A52 /* visualeffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6041206F1CBBA90E00F03A52 /* visualeffectViewController.m */; };
 		6043CB681CE02F7A0021961C /* BufferfunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043CB671CE02F7A0021961C /* BufferfunctionViewController.m */; };
+		6043CB6C1CE03D180021961C /* ChipmunkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043CB6B1CE03D180021961C /* ChipmunkViewController.m */; };
 		60448F011CD05D47005E65DE /* CAReplicatorLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448EFE1CD05D47005E65DE /* CAReplicatorLayerView.m */; };
 		60448F021CD05D47005E65DE /* CAReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F001CD05D47005E65DE /* CAReplicatorLayerViewController.m */; };
 		60448F051CD05D75005E65DE /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448F041CD05D75005E65DE /* CAEmitterLayerViewController.m */; };
@@ -87,6 +88,8 @@
 		6041206F1CBBA90E00F03A52 /* visualeffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = visualeffectViewController.m; sourceTree = "<group>"; };
 		6043CB661CE02F7A0021961C /* BufferfunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferfunctionViewController.h; sourceTree = "<group>"; };
 		6043CB671CE02F7A0021961C /* BufferfunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferfunctionViewController.m; sourceTree = "<group>"; };
+		6043CB6A1CE03D180021961C /* ChipmunkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkViewController.h; sourceTree = "<group>"; };
+		6043CB6B1CE03D180021961C /* ChipmunkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChipmunkViewController.m; sourceTree = "<group>"; };
 		60448EFD1CD05D47005E65DE /* CAReplicatorLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerView.h; sourceTree = "<group>"; };
 		60448EFE1CD05D47005E65DE /* CAReplicatorLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerView.m; sourceTree = "<group>"; };
 		60448EFF1CD05D47005E65DE /* CAReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerViewController.h; sourceTree = "<group>"; };
@@ -235,6 +238,16 @@
 			name = 4;
 			sourceTree = "<group>";
 		};
+		6043CB691CE03D070021961C /* 11 */ = {
+			isa = PBXGroup;
+			children = (
+				6043CB6A1CE03D180021961C /* ChipmunkViewController.h */,
+				6043CB6B1CE03D180021961C /* ChipmunkViewController.m */,
+			);
+			name = 11;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		60448F0F1CD09ACF005E65DE /* 7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +319,7 @@
 				605CE2251CB8DF1F00D91782 /* RootViewController.h */,
 				605CE2261CB8DF1F00D91782 /* RootViewController.m */,
 				60448F101CD09AFB005E65DE /* controllers */,
+				6043CB691CE03D070021961C /* 11 */,
 				600A5C071CD9CF7800CEA829 /* 10 */,
 				604CDDEB1CD9949100F230F9 /* 9 */,
 				604502851CD1A8C7005ADC2C /* 8 */,
@@ -509,6 +523,7 @@
 				6041206C1CBB793E00F03A52 /* anchorPointViewController.m in Sources */,
 				604120701CBBA90E00F03A52 /* visualeffectViewController.m in Sources */,
 				604120681CBB4CBA00F03A52 /* CustomDrawingViewController.m in Sources */,
+				6043CB6C1CE03D180021961C /* ChipmunkViewController.m in Sources */,
 				605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */,
 				60448F131CD09D9E005E65DE /* AffairsViewController.m in Sources */,
 				603C44391CBF36CC00F102D5 /* CAShapeLayerViewController.m in Sources */,
