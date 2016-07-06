@@ -32,6 +32,7 @@
 #import "velocityViewController.h"
 #import "BufferfunctionViewController.h"
 #import "ChipmunkViewController.h"
+#import "DrawingViewController.h"
 @interface RootViewController ()
 
 @end
@@ -53,7 +54,7 @@
 {
     
     
-    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer",@"事务",@"完成块",@"关键帧",@"动画组",@"过度",@"取消动画",@"CAMediaTiming协议",@"动画速度",@"自定义缓冲函数",@"物理模拟" ,nil];
+    _dataArray =[[NSArray alloc]initWithObjects:@"使用图层",@"contents属性",@"Custom Drawing",@"anchorPoint",@"visualeffect",@"mask",@"Transform",@"CAShapeLayer",@"CATextLayer",@"scollview",@"CATransformLayer",@"CAGradientLayer",@"CAEmitterLayer",@"CAReplicatorLayer",@"CAEAGLLayer",@"事务",@"完成块",@"关键帧",@"动画组",@"过度",@"取消动画",@"CAMediaTiming协议",@"动画速度",@"自定义缓冲函数",@"物理模拟",@"画图" ,nil];
     _tabelview =[[UITableView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH , SCREEN_HEIGHT)];
     _tabelview.delegate=self;
     _tabelview.dataSource=self;
@@ -217,6 +218,11 @@
     if (indexPath.row ==24) {
         ChipmunkViewController * layer24 =[[ChipmunkViewController alloc]init];
         [self.navigationController pushViewController:layer24 animated:YES];
+        
+    }
+    if (indexPath.row ==25) {
+        DrawingViewController * layer25 =[[DrawingViewController alloc]init];
+        [self.navigationController pushViewController:layer25 animated:YES];
         
     }
 }

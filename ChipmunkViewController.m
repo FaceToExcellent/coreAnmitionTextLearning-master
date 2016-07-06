@@ -7,7 +7,7 @@
 //
 
 #import "ChipmunkViewController.h"
-
+#import "chipmunk.h"//一个物理模拟库 纯c 写的  现阶段看，写了没多大意义就不写了
 @interface ChipmunkViewController ()
 
 @end
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //
 }
 
 - (void)didReceiveMemoryWarning {

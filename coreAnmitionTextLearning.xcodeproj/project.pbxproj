@@ -19,6 +19,8 @@
 		604120681CBB4CBA00F03A52 /* CustomDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604120671CBB4CBA00F03A52 /* CustomDrawingViewController.m */; };
 		6041206C1CBB793E00F03A52 /* anchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6041206B1CBB793E00F03A52 /* anchorPointViewController.m */; };
 		604120701CBBA90E00F03A52 /* visualeffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6041206F1CBBA90E00F03A52 /* visualeffectViewController.m */; };
+		60418A341D2CA1F000A2DE99 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60418A331D2CA1F000A2DE99 /* DrawingViewController.m */; };
+		60418A371D2CA32E00A2DE99 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60418A361D2CA32E00A2DE99 /* DrawingView.m */; };
 		6043CB681CE02F7A0021961C /* BufferfunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043CB671CE02F7A0021961C /* BufferfunctionViewController.m */; };
 		6043CB6C1CE03D180021961C /* ChipmunkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043CB6B1CE03D180021961C /* ChipmunkViewController.m */; };
 		60448F011CD05D47005E65DE /* CAReplicatorLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60448EFE1CD05D47005E65DE /* CAReplicatorLayerView.m */; };
@@ -45,23 +47,6 @@
 		605CE23C1CB8F60000D91782 /* Layer01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CE23B1CB8F60000D91782 /* Layer01ViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		605CE2091CB8DD9200D91782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 605CE1E71CB8DD9200D91782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 605CE1EE1CB8DD9200D91782;
-			remoteInfo = coreAnmitionTextLearning;
-		};
-		605CE2141CB8DD9200D91782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 605CE1E71CB8DD9200D91782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 605CE1EE1CB8DD9200D91782;
-			remoteInfo = coreAnmitionTextLearning;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		600A5C081CD9CFAF00CEA829 /* velocityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocityViewController.h; sourceTree = "<group>"; };
 		600A5C091CD9CFAF00CEA829 /* velocityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = velocityViewController.m; sourceTree = "<group>"; };
@@ -86,6 +71,40 @@
 		6041206B1CBB793E00F03A52 /* anchorPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = anchorPointViewController.m; sourceTree = "<group>"; };
 		6041206E1CBBA90E00F03A52 /* visualeffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visualeffectViewController.h; sourceTree = "<group>"; };
 		6041206F1CBBA90E00F03A52 /* visualeffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = visualeffectViewController.m; sourceTree = "<group>"; };
+		60418A131D2C9F8A00A2DE99 /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
+		60418A141D2C9F8A00A2DE99 /* chipmunk_ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_ffi.h; sourceTree = "<group>"; };
+		60418A151D2C9F8A00A2DE99 /* chipmunk_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_private.h; sourceTree = "<group>"; };
+		60418A161D2C9F8A00A2DE99 /* chipmunk_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_structs.h; sourceTree = "<group>"; };
+		60418A171D2C9F8A00A2DE99 /* chipmunk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_types.h; sourceTree = "<group>"; };
+		60418A181D2C9F8A00A2DE99 /* chipmunk_unsafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_unsafe.h; sourceTree = "<group>"; };
+		60418A191D2C9F8A00A2DE99 /* cpArbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpArbiter.h; sourceTree = "<group>"; };
+		60418A1A1D2C9F8A00A2DE99 /* cpBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBB.h; sourceTree = "<group>"; };
+		60418A1B1D2C9F8A00A2DE99 /* cpBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBody.h; sourceTree = "<group>"; };
+		60418A1C1D2C9F8A00A2DE99 /* cpConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraint.h; sourceTree = "<group>"; };
+		60418A1D1D2C9F8A00A2DE99 /* cpDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedRotarySpring.h; sourceTree = "<group>"; };
+		60418A1E1D2C9F8A00A2DE99 /* cpDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedSpring.h; sourceTree = "<group>"; };
+		60418A1F1D2C9F8A00A2DE99 /* cpGearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGearJoint.h; sourceTree = "<group>"; };
+		60418A201D2C9F8A00A2DE99 /* cpGrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGrooveJoint.h; sourceTree = "<group>"; };
+		60418A211D2C9F8A00A2DE99 /* cpHastySpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpHastySpace.h; sourceTree = "<group>"; };
+		60418A221D2C9F8A00A2DE99 /* cpMarch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpMarch.h; sourceTree = "<group>"; };
+		60418A231D2C9F8A00A2DE99 /* cpPinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPinJoint.h; sourceTree = "<group>"; };
+		60418A241D2C9F8A00A2DE99 /* cpPivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPivotJoint.h; sourceTree = "<group>"; };
+		60418A251D2C9F8A00A2DE99 /* cpPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyline.h; sourceTree = "<group>"; };
+		60418A261D2C9F8A00A2DE99 /* cpPolyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyShape.h; sourceTree = "<group>"; };
+		60418A271D2C9F8A00A2DE99 /* cpRatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRatchetJoint.h; sourceTree = "<group>"; };
+		60418A281D2C9F8A00A2DE99 /* cpRobust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRobust.h; sourceTree = "<group>"; };
+		60418A291D2C9F8A00A2DE99 /* cpRotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRotaryLimitJoint.h; sourceTree = "<group>"; };
+		60418A2A1D2C9F8A00A2DE99 /* cpShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpShape.h; sourceTree = "<group>"; };
+		60418A2B1D2C9F8A00A2DE99 /* cpSimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSimpleMotor.h; sourceTree = "<group>"; };
+		60418A2C1D2C9F8A00A2DE99 /* cpSlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSlideJoint.h; sourceTree = "<group>"; };
+		60418A2D1D2C9F8A00A2DE99 /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
+		60418A2E1D2C9F8A00A2DE99 /* cpSpatialIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpatialIndex.h; sourceTree = "<group>"; };
+		60418A2F1D2C9F8A00A2DE99 /* cpTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpTransform.h; sourceTree = "<group>"; };
+		60418A301D2C9F8A00A2DE99 /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
+		60418A321D2CA1F000A2DE99 /* DrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		60418A331D2CA1F000A2DE99 /* DrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		60418A351D2CA32E00A2DE99 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		60418A361D2CA32E00A2DE99 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 		6043CB661CE02F7A0021961C /* BufferfunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferfunctionViewController.h; sourceTree = "<group>"; };
 		6043CB671CE02F7A0021961C /* BufferfunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferfunctionViewController.m; sourceTree = "<group>"; };
 		6043CB6A1CE03D180021961C /* ChipmunkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkViewController.h; sourceTree = "<group>"; };
@@ -120,8 +139,6 @@
 		605CE1F61CB8DD9200D91782 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		605CE1FE1CB8DD9200D91782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605CE2031CB8DD9200D91782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		605CE2081CB8DD9200D91782 /* coreAnmitionTextLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreAnmitionTextLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		605CE2131CB8DD9200D91782 /* coreAnmitionTextLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreAnmitionTextLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		605CE2251CB8DF1F00D91782 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
 		605CE2261CB8DF1F00D91782 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 		605CE2281CB8E01C00D91782 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -141,20 +158,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				605CE2381CB8F00300D91782 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		605CE2051CB8DD9200D91782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		605CE2101CB8DD9200D91782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +241,58 @@
 			name = 4;
 			sourceTree = "<group>";
 		};
+		60418A121D2C9F8A00A2DE99 /* chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				60418A131D2C9F8A00A2DE99 /* chipmunk.h */,
+				60418A141D2C9F8A00A2DE99 /* chipmunk_ffi.h */,
+				60418A151D2C9F8A00A2DE99 /* chipmunk_private.h */,
+				60418A161D2C9F8A00A2DE99 /* chipmunk_structs.h */,
+				60418A171D2C9F8A00A2DE99 /* chipmunk_types.h */,
+				60418A181D2C9F8A00A2DE99 /* chipmunk_unsafe.h */,
+				60418A191D2C9F8A00A2DE99 /* cpArbiter.h */,
+				60418A1A1D2C9F8A00A2DE99 /* cpBB.h */,
+				60418A1B1D2C9F8A00A2DE99 /* cpBody.h */,
+				60418A1C1D2C9F8A00A2DE99 /* cpConstraint.h */,
+				60418A1D1D2C9F8A00A2DE99 /* cpDampedRotarySpring.h */,
+				60418A1E1D2C9F8A00A2DE99 /* cpDampedSpring.h */,
+				60418A1F1D2C9F8A00A2DE99 /* cpGearJoint.h */,
+				60418A201D2C9F8A00A2DE99 /* cpGrooveJoint.h */,
+				60418A211D2C9F8A00A2DE99 /* cpHastySpace.h */,
+				60418A221D2C9F8A00A2DE99 /* cpMarch.h */,
+				60418A231D2C9F8A00A2DE99 /* cpPinJoint.h */,
+				60418A241D2C9F8A00A2DE99 /* cpPivotJoint.h */,
+				60418A251D2C9F8A00A2DE99 /* cpPolyline.h */,
+				60418A261D2C9F8A00A2DE99 /* cpPolyShape.h */,
+				60418A271D2C9F8A00A2DE99 /* cpRatchetJoint.h */,
+				60418A281D2C9F8A00A2DE99 /* cpRobust.h */,
+				60418A291D2C9F8A00A2DE99 /* cpRotaryLimitJoint.h */,
+				60418A2A1D2C9F8A00A2DE99 /* cpShape.h */,
+				60418A2B1D2C9F8A00A2DE99 /* cpSimpleMotor.h */,
+				60418A2C1D2C9F8A00A2DE99 /* cpSlideJoint.h */,
+				60418A2D1D2C9F8A00A2DE99 /* cpSpace.h */,
+				60418A2E1D2C9F8A00A2DE99 /* cpSpatialIndex.h */,
+				60418A2F1D2C9F8A00A2DE99 /* cpTransform.h */,
+				60418A301D2C9F8A00A2DE99 /* cpVect.h */,
+			);
+			path = chipmunk;
+			sourceTree = "<group>";
+		};
+		60418A311D2CA1B800A2DE99 /* 12 */ = {
+			isa = PBXGroup;
+			children = (
+				60418A321D2CA1F000A2DE99 /* DrawingViewController.h */,
+				60418A331D2CA1F000A2DE99 /* DrawingViewController.m */,
+				60418A351D2CA32E00A2DE99 /* DrawingView.h */,
+				60418A361D2CA32E00A2DE99 /* DrawingView.m */,
+			);
+			name = 12;
+			sourceTree = "<group>";
+		};
 		6043CB691CE03D070021961C /* 11 */ = {
 			isa = PBXGroup;
 			children = (
+				60418A121D2C9F8A00A2DE99 /* chipmunk */,
 				6043CB6A1CE03D180021961C /* ChipmunkViewController.h */,
 				6043CB6B1CE03D180021961C /* ChipmunkViewController.m */,
 			);
@@ -307,8 +359,6 @@
 			isa = PBXGroup;
 			children = (
 				605CE1EF1CB8DD9200D91782 /* coreAnmitionTextLearning.app */,
-				605CE2081CB8DD9200D91782 /* coreAnmitionTextLearningTests.xctest */,
-				605CE2131CB8DD9200D91782 /* coreAnmitionTextLearningUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -318,6 +368,7 @@
 			children = (
 				605CE2251CB8DF1F00D91782 /* RootViewController.h */,
 				605CE2261CB8DF1F00D91782 /* RootViewController.m */,
+				60418A311D2CA1B800A2DE99 /* 12 */,
 				60448F101CD09AFB005E65DE /* controllers */,
 				6043CB691CE03D070021961C /* 11 */,
 				600A5C071CD9CF7800CEA829 /* 10 */,
@@ -396,42 +447,6 @@
 			productReference = 605CE1EF1CB8DD9200D91782 /* coreAnmitionTextLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
-		605CE2071CB8DD9200D91782 /* coreAnmitionTextLearningTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 605CE21F1CB8DD9200D91782 /* Build configuration list for PBXNativeTarget "coreAnmitionTextLearningTests" */;
-			buildPhases = (
-				605CE2041CB8DD9200D91782 /* Sources */,
-				605CE2051CB8DD9200D91782 /* Frameworks */,
-				605CE2061CB8DD9200D91782 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				605CE20A1CB8DD9200D91782 /* PBXTargetDependency */,
-			);
-			name = coreAnmitionTextLearningTests;
-			productName = coreAnmitionTextLearningTests;
-			productReference = 605CE2081CB8DD9200D91782 /* coreAnmitionTextLearningTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		605CE2121CB8DD9200D91782 /* coreAnmitionTextLearningUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 605CE2221CB8DD9200D91782 /* Build configuration list for PBXNativeTarget "coreAnmitionTextLearningUITests" */;
-			buildPhases = (
-				605CE20F1CB8DD9200D91782 /* Sources */,
-				605CE2101CB8DD9200D91782 /* Frameworks */,
-				605CE2111CB8DD9200D91782 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				605CE2151CB8DD9200D91782 /* PBXTargetDependency */,
-			);
-			name = coreAnmitionTextLearningUITests;
-			productName = coreAnmitionTextLearningUITests;
-			productReference = 605CE2131CB8DD9200D91782 /* coreAnmitionTextLearningUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -443,14 +458,6 @@
 				TargetAttributes = {
 					605CE1EE1CB8DD9200D91782 = {
 						CreatedOnToolsVersion = 7.3;
-					};
-					605CE2071CB8DD9200D91782 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 605CE1EE1CB8DD9200D91782;
-					};
-					605CE2121CB8DD9200D91782 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 605CE1EE1CB8DD9200D91782;
 					};
 				};
 			};
@@ -468,8 +475,6 @@
 			projectRoot = "";
 			targets = (
 				605CE1EE1CB8DD9200D91782 /* coreAnmitionTextLearning */,
-				605CE2071CB8DD9200D91782 /* coreAnmitionTextLearningTests */,
-				605CE2121CB8DD9200D91782 /* coreAnmitionTextLearningUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -484,20 +489,6 @@
 				605CE22D1CB8E32800D91782 /* Default-667h@2x.png in Resources */,
 				605CE22C1CB8E32800D91782 /* Default-568h@2x.png in Resources */,
 				605CE22E1CB8E32800D91782 /* Default-736h@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		605CE2061CB8DD9200D91782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		605CE2111CB8DD9200D91782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,12 +507,14 @@
 				600A5C0A1CD9CFAF00CEA829 /* velocityViewController.m in Sources */,
 				6043CB681CE02F7A0021961C /* BufferfunctionViewController.m in Sources */,
 				605CE23C1CB8F60000D91782 /* Layer01ViewController.m in Sources */,
+				60418A341D2CA1F000A2DE99 /* DrawingViewController.m in Sources */,
 				60448F0E1CD0637C005E65DE /* CATransformLayer2ViewController.m in Sources */,
 				604CDDEA1CD992B100F230F9 /* removeAnimationViewController.m in Sources */,
 				604120631CBB462F00F03A52 /* contentsViewController.m in Sources */,
 				604CDDEE1CD994D700F230F9 /* CAMediaTimingViewController.m in Sources */,
 				6041206C1CBB793E00F03A52 /* anchorPointViewController.m in Sources */,
 				604120701CBBA90E00F03A52 /* visualeffectViewController.m in Sources */,
+				60418A371D2CA32E00A2DE99 /* DrawingView.m in Sources */,
 				604120681CBB4CBA00F03A52 /* CustomDrawingViewController.m in Sources */,
 				6043CB6C1CE03D180021961C /* ChipmunkViewController.m in Sources */,
 				605CE1F71CB8DD9200D91782 /* AppDelegate.m in Sources */,
@@ -541,34 +534,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		605CE2041CB8DD9200D91782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		605CE20F1CB8DD9200D91782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		605CE20A1CB8DD9200D91782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 605CE1EE1CB8DD9200D91782 /* coreAnmitionTextLearning */;
-			targetProxy = 605CE2091CB8DD9200D91782 /* PBXContainerItemProxy */;
-		};
-		605CE2151CB8DD9200D91782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 605CE1EE1CB8DD9200D91782 /* coreAnmitionTextLearning */;
-			targetProxy = 605CE2141CB8DD9200D91782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		605CE21A1CB8DD9200D91782 /* Debug */ = {
@@ -679,52 +645,6 @@
 			};
 			name = Release;
 		};
-		605CE2201CB8DD9200D91782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = coreAnmitionTextLearningTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.calayer.coreAnmitionTextLearningTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreAnmitionTextLearning.app/coreAnmitionTextLearning";
-			};
-			name = Debug;
-		};
-		605CE2211CB8DD9200D91782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = coreAnmitionTextLearningTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.calayer.coreAnmitionTextLearningTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreAnmitionTextLearning.app/coreAnmitionTextLearning";
-			};
-			name = Release;
-		};
-		605CE2231CB8DD9200D91782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = coreAnmitionTextLearningUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.calayer.coreAnmitionTextLearningUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = coreAnmitionTextLearning;
-			};
-			name = Debug;
-		};
-		605CE2241CB8DD9200D91782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = coreAnmitionTextLearningUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.calayer.coreAnmitionTextLearningUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = coreAnmitionTextLearning;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -742,24 +662,6 @@
 			buildConfigurations = (
 				605CE21D1CB8DD9200D91782 /* Debug */,
 				605CE21E1CB8DD9200D91782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		605CE21F1CB8DD9200D91782 /* Build configuration list for PBXNativeTarget "coreAnmitionTextLearningTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				605CE2201CB8DD9200D91782 /* Debug */,
-				605CE2211CB8DD9200D91782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		605CE2221CB8DD9200D91782 /* Build configuration list for PBXNativeTarget "coreAnmitionTextLearningUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				605CE2231CB8DD9200D91782 /* Debug */,
-				605CE2241CB8DD9200D91782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
