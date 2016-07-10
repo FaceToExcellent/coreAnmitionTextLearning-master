@@ -30,17 +30,17 @@
     
     _hourHand =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"时针"]];
     _hourHand.frame= CGRectMake(SCREEN_WIDTH/2 -30 ,100, 60, SCREEN_WIDTH/2-40);
-    _hourHand.backgroundColor=[UIColor clearColor];
+    //_hourHand.backgroundColor=[UIColor clearColor];
     [_timeView  addSubview:_hourHand];
     
     _minuteHand =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"分针"]];
     _minuteHand.frame= CGRectMake(SCREEN_WIDTH/2 -20 , 100, 40, SCREEN_WIDTH/2-40);
-    _minuteHand.backgroundColor=[UIColor clearColor];
+    //_minuteHand.backgroundColor=[UIColor clearColor];
     [_timeView  addSubview:_minuteHand];
     
     _secondHand =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"秒针"]];
     _secondHand.frame= CGRectMake(SCREEN_WIDTH/2 -10 , 100, 20, SCREEN_WIDTH/2-40);
-    _secondHand.backgroundColor=[UIColor clearColor];
+    //_secondHand.backgroundColor=[UIColor clearColor];
     [_timeView  addSubview:_secondHand];
     
     

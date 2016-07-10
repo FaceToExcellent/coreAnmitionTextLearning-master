@@ -22,14 +22,14 @@
 }
 -(void)makeUI3
 {
-    self.view.backgroundColor=[UIColor grayColor];
+    self.view.backgroundColor=[UIColor whiteColor];
   
     //蒙版 是这么做 但是 还是不是很清楚
     
     //image
     UIImageView * imagemask =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"4"]];
     imagemask.frame=CGRectMake(100, 100, 150, 150);
-    imagemask.backgroundColor=[UIColor clearColor];
+    //imagemask.backgroundColor=[UIColor clearColor];
     [self.view addSubview:imagemask];
     
     CALayer *maskLayer = [CALayer layer];

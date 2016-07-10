@@ -46,9 +46,9 @@
    //   给shadowOpacity属性一个大于默认值（也就是0）的值，阴影就可以显示在任意图层之下。shadowOpacity是一个必须在0.0（不可见）和1.0（完全不透明）之间的浮点数。如果设置为1.0，将会显示一个有轻微模糊的黑色阴影稍微在图层之上。
     whiteView.layer.shadowOpacity=0.5;
     //shadowColor属性控制着阴影的颜色，和borderColor和backgroundColor一样，它的类型也是CGColorRef。阴影默认是黑色，
-    whiteView.layer.shadowColor= [UIColor blackColor].CGColor;
+    whiteView.layer.shadowColor= [UIColor greenColor].CGColor;
     // shadowOffset属性控制着阴影的方向和距离。它是一个CGSize的值，宽度控制这阴影横向的位移，高度控制着纵向的位移。shadowOffset的默认值是 {0, -3}，意即阴影相对于Y轴有3个点的向上位移。
-    whiteView.layer.shadowOffset=CGSizeMake(0.0f, 5.0f);
+    whiteView.layer.shadowOffset=CGSizeMake(13.0f, 1.0f);
     
     //whiteView 上面加阴影 子视图也会有阴影效果，超出部分
     
